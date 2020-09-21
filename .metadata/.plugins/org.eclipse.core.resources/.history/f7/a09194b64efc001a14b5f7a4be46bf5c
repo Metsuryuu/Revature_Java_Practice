@@ -1,0 +1,16 @@
+package example1;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		/*
+		 * Data type - asking java to allocate some memory to hold values
+		 * Java provides 8 primitive data types with default values to it
+		 * 
+		 * .java serves as instructions for compiler.
+		 * .class (byte code) will be the executable.
+		 */
+
+	}
+
+}

@@ -1169,3 +1169,8 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 
 !ENTRY org.eclipse.jface.text 2 0 2020-09-21 14:17:51.092
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 2 2 2020-09-21 15:41:59.124
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-09-21 15:41:59.125
+!MESSAGE The project description file (.project) for 'myfirstproject' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
