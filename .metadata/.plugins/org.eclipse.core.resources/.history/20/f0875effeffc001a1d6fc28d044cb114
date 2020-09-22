@@ -1,0 +1,16 @@
+package ex4;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+
+		Student s1 = new Student();
+		s1.id = 100;
+		s1.name = "Xavier";
+		s1.age = 33;
+		Student.college = "My College";
+		
+
+	}
+
+}

@@ -1,0 +1,53 @@
+package ex1;
+
+import ex2.Animal;	//need to import from separate folders/packages.
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		//Classname obj=new Constructor();
+		Demo1 d=new Demo1();	//the constructor is the classname.
+		d.helloNonStatic();//execution
+		d.helloNonStaticAgain();
+		
+		/*
+		 * Above is an example of dynamic memory allocation.
+		 * No delete or destructor needed.
+		*/
+		
+		helloStatic();	//can be accessed directly without an object.
+		
+		//Classname.methodName()
+		Calculator.calculatorStatic();//static method of separate class.
+		
+		Calculator c=new Calculator();
+		c.calculatorNonStatic();//still need an object to call nonstatic methods.
+		
+		int res = c.add(100,299);
+		System.out.println("Result is " + res);
+		
+		Animal.helloAnimalStatic();
+		Animal a = new Animal();
+		a.helloAnimalNonStatic();
+	}
+	
+	public void helloNonStatic() {
+		System.out.println("Hello from non static block"); 
+	}
+	
+	public void helloNonStaticAgain() {
+		System.out.println("Hello from non static block again");
+	}
+	
+	public static void helloStatic() {	//common methods will probably be static.
+		System.out.println("Hello from helloStatic() method");
+		
+		/*
+		 * static anything will stay in the memory until completion of code.
+		 * This will take up a lot of memory in the stack which can lead to
+		 * crashing. So use it sparsely.
+		 */
+	}
+
+}

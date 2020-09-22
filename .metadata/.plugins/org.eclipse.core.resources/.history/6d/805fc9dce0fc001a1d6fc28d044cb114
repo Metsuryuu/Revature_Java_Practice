@@ -1,0 +1,16 @@
+package ex1;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		//Classname obj=new Constructor();
+		Demo1 d=new Demo1();
+		d.helloNonStatic();//execution
+
+	}
+	
+	public void helloNonStatic() {
+		System.out.println("Hello from non static block"); 
+	}
+
+}

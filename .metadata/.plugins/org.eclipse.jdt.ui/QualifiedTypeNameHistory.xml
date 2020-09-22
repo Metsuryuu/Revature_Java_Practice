@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ex2.Animal"/>
+<fullyQualifiedTypeName name="logical.Logical_Operators"/>
+<fullyQualifiedTypeName name="bitwise.Bitwise_Operators"/>
+<fullyQualifiedTypeName name="relational.Relational_Operators"/>
+<fullyQualifiedTypeName name="conditional.Conditional_Operators"/>
+</qualifiedTypeNameHistroy>
