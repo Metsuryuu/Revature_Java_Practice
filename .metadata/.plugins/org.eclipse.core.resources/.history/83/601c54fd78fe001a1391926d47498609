@@ -1,0 +1,15 @@
+package regex;
+
+public class RegularExpression {
+
+	public static void main(String[] args) {
+		/*
+		 * Reg-Ex(Regular Expression)
+		 * PMA - Pattern Matching Algorithm
+		 * -uses wild cards to check the pattern of your string
+		 * and can validate with it.
+		 */
+
+	}
+
+}

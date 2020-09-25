@@ -1,0 +1,46 @@
+package id_validation;
+
+public class IDValidation {
+
+	public static void main(String[] args) {
+
+		String dL = "123 456 789";
+		String ssn = "123-44-5678";
+		String licp = "ABC-1234";
+		String zip = "12345";
+
+	}
+	
+	public static boolean isValidDL(String dL){
+		if(dL.matches("[0-9]{3} [0-9]{3} [0-9]{3}")){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	public static boolean isValidSSN(String ssn){
+		if(ssn.matches("[0-9]{3}-[0-9]{3}-[0-9]{3}")){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	public static boolean isValidLP(String licp){
+		if(licp.matches("[A-Z]-[0-9]{4}")){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	public static boolean isValidZip(String zip){
+		if(zip.matches("[0-9]{5}")){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+package regex;
+
+public class RegularExpression {
+
+	public static void main(String[] args) {
+		/*
+		 * Reg-Ex(Regular Expression)
+		 * PMA - Pattern Matching Algorithm
+		 * -uses wild cards to check the pattern of your string
+		 * and can validate with it. Similar to SQL Like "x%".
+		 * 
+		 * [] - represents expression.
+		 * {} - represents length.
+		 * ^ - represents not.
+		 * a-z - represents all the lowercase letters.
+		 * 0-9 -  represents digits.
+		 * 
+		 * [A-Z]{5} - any uppercase word of length 5 is validated by this.
+		 * [A-Za-z]{5} - any word of length 5 is validated by this. Nothing in between expressions.
+		 * [^A-Za-z] - anything other than letters.
+		 * [^A-Z a-z] - anything other than letters and whitespace.
+		 * [A-Z]{1,} - at least one uppercase letter.
+		 * [A-Z]{1,10} - between 1 and 10 uppercase letters.
+		 */
+		
+		String s="Qkaj 199f8f -- 0G)( hFS +@ ";
+		
+		System.out.println(s.replaceAll("[^A-Za-z]", ""));
+
+	}
+
+}

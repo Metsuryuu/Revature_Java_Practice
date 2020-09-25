@@ -5,4 +5,7 @@
 <fullyQualifiedTypeName name="bitwise.Bitwise_Operators"/>
 <fullyQualifiedTypeName name="relational.Relational_Operators"/>
 <fullyQualifiedTypeName name="conditional.Conditional_Operators"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>

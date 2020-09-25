@@ -1,0 +1,10 @@
+package char_wrapper_demo;
+
+public class ValidateDriverLicense {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package exceptions_demo;
+
+public class Exceptions {
+
+	public static void main(String[] args) {
+
+		int a=10;
+		int b=0;
+		int res=0;
+		
+		try{
+		res = a/b;
+		System.out.println("Result is "+res);
+		}catch(ArithmeticException e){
+			System.out.println("Cannot divide by 0.");
+		}
+		
+		System.out.println("this is other lines of code in my app.");
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package id_validation;
+
+public class IDValidation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean isValidDL(String dL){
+		
+	}
+	
+	public static boolean isValidSSN(String ssn){
+		
+	}
+	
+	public static boolean isValidLP(String licp){
+		
+	}
+
+}

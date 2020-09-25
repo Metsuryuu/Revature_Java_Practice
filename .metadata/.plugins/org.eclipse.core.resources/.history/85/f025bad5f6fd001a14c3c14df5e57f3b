@@ -1,0 +1,37 @@
+package coding_challenge1;
+
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+
+public class Attempt3
+{
+	public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+
+        int sampleInput;
+        int result = -404;
+        sampleInput = sc.nextInt();
+            
+        //write your Logic here
+        
+        int[] ar = {};
+        
+        for(int i=0;i<=1;i++){
+            ar[i] = sampleInput;
+            sampleInput = sc.nextInt();
+        }
+        
+        for(int i=0;i<=1;i++){
+            if(ar[i]>ar[i+1]){
+                result = ar[i];
+            }
+        }
+
+
+        //OUTPUT [uncomment & modify if required]
+        System.out.println(result);
+    
+    }
+}

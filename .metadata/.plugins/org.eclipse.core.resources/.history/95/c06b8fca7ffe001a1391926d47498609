@@ -1,0 +1,22 @@
+package eg1;
+
+public class SbDemo1 {
+
+	public static void main(String[] args) {
+
+		StringBuffer sb = new StringBuffer("hello");
+		System.out.println(sb);
+		sb.append(" hey");	//add on to the end.
+		System.out.println(sb);
+		System.out.println(sb.length());
+		sb.insert(2, "JAVA");	//add in at a certain offset.
+		System.out.println(sb);
+		System.out.println(sb.reverse());
+		System.out.println(sb);
+		
+		sb.delete(3, 8);	//removes position 3-8.
+		System.out.println(sb);
+
+	}
+
+}

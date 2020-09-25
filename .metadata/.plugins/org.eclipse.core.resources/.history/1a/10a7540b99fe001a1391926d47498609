@@ -1,0 +1,26 @@
+package id_validation;
+
+public class IDValidation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean isValidDL(String dL){
+		//NY drivers license
+	}
+	
+	public static boolean isValidSSN(String ssn){
+		//ssn
+	}
+	
+	public static boolean isValidLP(String licp){
+		//license plate
+	}
+	
+	public static boolean isValidZip(String zip){
+		//zip code.
+	}
+
+}
